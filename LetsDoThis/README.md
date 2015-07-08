@@ -2,6 +2,20 @@
 
 A DoSomething.org native app.
 
+## User Registration
+
+Following fields are required:
+* First Name
+* Last Name
+* Email
+* Password
+    * Must be at least 6 characters
+* Birthdate
+    * Should display Date Picker, defaulting to today's date 20 years ago
+
+Not required:
+* Mobile number
+
 ## Campaigns
 
 Campaigns to be included in the app are found by querying the Campaigns endpoint where `mobile_app=true`.
