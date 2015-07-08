@@ -50,8 +50,8 @@ For v1:
 # Offline Mode
 If the device loses connection, the user is unable to perform any tasks, and a "Fail Whale" screen is displayed.
 
-## Restoring Connection
-Upon restoring connection, the User is directed to the Main Feed if a signed in session has been saved.
+## Restoring Connection / After Force Quit
+Upon restoring connection or upon opening the app after forcing Quit, the User is directed to the Main Feed if a signed in session has been saved.
 
 If a signed in session has not been saved, the user is directed to the User Connect screen (https://github.com/DoSomething/product/blob/master/LetsDoThis/Screens/Onboarding/Log%20In*.png)
 
