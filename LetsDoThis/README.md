@@ -16,6 +16,18 @@ Following fields are required:
 Not required:
 * Mobile number
 
+### Facebook Connect
+
+Facebook Connect will only be provided to _help_ with user registration. The information received from connecting with Facebook will fill in the corresponding fields on the registration form. At this point, the user will still have to fill in any remaining required info and submit the user registration.
+
+Facebook Connect is _not_ being used to log users into the app.
+
+Approved permissions:
+- `email`: access to person's primary email address
+- `public_profile`: access to basic information including first name, last name, profile picture, gender, and age range
+- `user_friends`: access to person's list of friends that also use the app
+
+
 ## Campaigns
 
 Campaigns to be included in the app are found by querying the Campaigns endpoint where `mobile_app=true`.
