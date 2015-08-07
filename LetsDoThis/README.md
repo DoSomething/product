@@ -10,6 +10,7 @@ Following fields are required:
 * Password
     * Must be at least 6 characters
 
+
 Not required:
 * Mobile number
 
