@@ -31,6 +31,9 @@ Tapping on a Reportback Item should display the Reportback Detail view of the se
 
 On all screens, if a user avatar/name is tapped, the user's profile is displayed.
 
+Pre-reportback, a upload photo option is shown in place of photo.
+Post-reportback, tapping this photo will take you to the reportback detail screen.
+
 ### Reportbacks
 
 All of a User's non-`flagged` Reportback Items of current Campaigns are displayed.
