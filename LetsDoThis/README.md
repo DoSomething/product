@@ -20,6 +20,7 @@ Campaigns to be included in the app are found by querying the Campaigns endpoint
 ### Main Feed
 
 Campaigns displayed in the Main Feed should be sorted alphabetically.
+There are three states of campaign activity. No activity, signed up and completed reportback. Small visual differences accompany each state. In the signed up and completed reportback states there is different button text and a colored bar along the left side of the campaign cell. Yellow for signed up, green for completed reportbacks.
 
 ### Reportbacks
 
