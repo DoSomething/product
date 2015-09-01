@@ -13,6 +13,10 @@ Following fields are required:
 Not required:
 * Mobile number
 
+## Social Integration  
+
+We will create accounts through FB and G+ logins. The back-end schema hasn't been worked out yet, but we can create DS accounts and attach tokens to them to access social graphs for friend lists.
+
 ## Campaigns
 
 Campaigns to be included in the app are found by querying the Campaigns endpoint where `mobile_app=true`.
@@ -20,11 +24,10 @@ Campaigns to be included in the app are found by querying the Campaigns endpoint
 ### Main Feed
 
 Campaigns displayed in the Main Feed should be sorted alphabetically.
-There are three states of campaign activity. No activity, signed up and completed reportback. Small visual differences accompany each state. 
+There are two states of campaign activity. No activity and signed up/completed reportback. Small visual differences accompany each state. 
 
 - No activity: Normal visuals
-- Signed up: Yellow bar on left side, button says "More Info"
-- Completed Reportback: Green bar on left side, button says "More Info"
+- Signed up/completed: Yellow bar on left side, button says "More Info"
 
 ### Reportbacks
 
